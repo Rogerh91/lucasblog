@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Lucas Pellan</title>
+        <meta charset="utf-8">
+
+        <meta name="author" content="James Traf">
+        <meta name="keywords" content="Keywords">
+        <meta name="description" content="Description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+        <link href="assets/images/favicon.ico" rel="shortcut icon">
+        <link href="assets/images/iphoneicon.png" rel="apple-touch-icon">
+
+        <link href="assets/css/traf.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:700,400|Merriweather' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/balloon.js"></script>
+        <script type="text/javascript" src="assets/js/traf.js"></script>
+    </head>
+
+    <body class="animsition">
+
+
+        <!-- HOME -->
+
+        <div class="home full relative" id="home">
+            <div class="container-70 height-full relative">
+                <div class="home-content center-vertical width-500 right">
+                    <h2 class="spacing-min-1">Use this header to entice people to give you their email.</h2>
+                    <div class="spacer-30"></div>
+                    <form class="email" action="http://www.stampready.net/api.php" method="post">
+                        <input class="color-white float-left size-12 bg-none border-white transition" type="text" name="email" placeholder="Enter Your Email">
+                        <input type="hidden" name="api" value="f8zYoPcOlZrsNakpmigU">
+                        <input type="hidden" name="list" value="Z3x8COtXHfVgilD56FmTPAEd">
+                        <input class="submit float-left bg-white hover-color-black color-orange pointer transition" type="submit" name="subscribe" value="Go">
+                    </form>
+                </div>
+            </div>
+            <a href="#home-more" class="absolute width-full bottom size-30 height-80 line-height-80 align-center color-white hover-color-black hover-down transition"><i class="ion-ios7-arrow-down"></i></a>
+        </div>
+
+        <div class="home-more align-center" id="home-more">
+            <div class="spacer-80"></div>
+            <div class="container-60">
+                <div class="unrow border-bottom-dark-grey">
+                    <a href="blog.html" class="uncolumn height-250 border-right-dark-grey block">
+                        <i class="ion-ios7-glasses-outline color-orange size-40 transition"></i>
+                        <div class="spacer-10"></div>
+                        <h4 class="color-white transition">Take a glance<br/>at my blog</h4>
+                    </a>
+                    <a href="about.html" class="uncolumn height-250 block">
+                        <i class="ion-ios7-person-outline color-orange size-40 transition"></i>
+                        <div class="spacer-10"></div>
+                        <h4 class="color-white transition">Learn more<br/>about me</h4>
+                    </a>
+                </div>
+                <div class="unrow">
+                    <a href="books.html" class="uncolumn height-250 border-right-dark-grey block">
+                        <i class="ion-ios7-bookmarks-outline color-orange size-40 transition"></i>
+                        <div class="spacer-10"></div>
+                        <h4 class="color-white transition">My favourite<br/>books <span class="amp color-orange transition">&amp;</span> quotes</h4>
+                    </a>
+                    <a href="#" class="panel-trigger uncolumn height-250 block">
+                        <i class="ion-ios7-email-outline color-orange size-40 transition"></i>
+                        <div class="spacer-10"></div>
+                        <h4 class="color-white transition">Get in touch<br/>with me</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="spacer-80"></div>
+        </div>
+
+
+        <!-- PANEL -->
+        
+        <div class="panel from-right zindex-2">
+            <div class="panel-container bg-black color-white">
+                <a href="#" class="panel-close width-100 height-100 line-height-100 color-white hover-color-orange transition fixed top right align-center size-40 ion-ios7-close-empty zindex-3"></a>
+                <div class="panel-content align-center">
+                    <div class="spacer-100"></div>
+                    <div class="container-60">
+                        <form>
+                        </form>
+                    </div>
+                    <div class="spacer-80"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- JS -->
+
+        <script>
+            $(document).ready(function() {
+                $(".animsition").animsition({
+                    inDuration            :    1000,
+                    outDuration           :    1000, 
+                    linkElement           :   'a:not([target="_blank"]):not([href^=#])',
+                });
+            });
+        </script>
+
+    </body>
+
+</html>
+
